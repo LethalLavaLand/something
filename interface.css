@@ -1,0 +1,88 @@
+h1{
+	font-size: 45px;
+	text-align: center;
+}
+p {
+  color: black;
+  text-align: center;
+  font-size: 30px
+  
+}
+.stuff{
+	background-color: #e6e6ff;
+	font-size: 30px;
+}
+
+ .coolerStuff{
+	background-color: #d6f5e9;
+	font-size: 30px;
+ }
+  .Column1{
+	 display: inline-block;
+	 	   border: 2px solid #e600da;  
+	 background-color: #ffb3fb; 
+	 
+	 	    height: 40px;
+		width: 30%;
+		  text-align: center;
+		  font-size: 18px
+ }
+ 
+ .Column2{
+	 	 display: inline-block;
+	 	   border: 2px solid #e600da;  
+	 background-color: #ffb3fb;
+
+	    height: 40px;
+		width: 68%;
+		  text-align: center;
+		  font-size: 18px
+ }
+ 
+
+ 
+ .Column1:hover {
+  background-color: #ffffff;
+} 
+.Column2:hover {
+  background-color: #ffffff;
+}
+ .Column1:active {
+  background-color: black;
+  color: white;
+ }
+ 
+  .Column2:active {
+  background-color: black;
+  color: white;
+ }
+ 
+ .saveTab{ 
+		display: inline-block;
+	 	border: 2px solid #e600da;  
+		background-color: #ffb3fb;
+		margin-left: 7rem;
+	    height: 20px;
+		width: 100px;
+		text-align: center;
+		font-size: 15px
+}
+.saveTab:hover {
+  background-color: #ffffff;
+}
+.saveTab:active {
+ background-color: black;
+ color: white;
+}
+#progress{
+  height: 30px;
+  border: 2px solid #6666ff;  
+  width: 300px;
+  background-color: #6666ff;
+}
+
+#bar{
+  width: 0%;
+  height: 30px;
+  background-color: #00004d;
+}

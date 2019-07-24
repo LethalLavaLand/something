@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Title</title>
+		<link rel="stylesheet" type="text/css" href="interface.css" />
+	</head>
+		<body>
+			<h1>Cool Stuff</h1>
+			<p class="stuff">Stuff: <span class = "stuff" id = "stuffNumber"></span>
+			<p class = "coolerStuff"> Cooler Stuff: <span class = "coolerStuff" id = "coolerStuffNumber"></span>
+			<div id = "main" class = "tabcontent">
+				<button class = "saveTab" id = "savesTab" onclick = "openTab(event, 'saves')">save stuff</button><br><br>
+				<div id="progress">
+				<div id="bar"></div>
+				</div><br><br>
+				<button class = "Column1" onClick="gain(multi)" type="button">Click</button><br><br>
+				<button class = "Column1" onClick="move()" type="button">Click Me!</button><br><br>
+			</div>
+			<div id = "saves" class = "tabcontent">
+				<button class = "Column2" id = "mainTab" onclick = "openTab(event, 'main')">return</button>
+				<br>
+				<br>
+				<button class = "Column1" onClick="importSave()" type="button">import</button>
+				<button class = "Column1" onClick="copySave()" type="button">export</button>
+				<button class = "Column1" onClick="resetGame()" type="button">reset</button>
+			</div>
+				<script type="text/javascript" src="main.js"></script>
+	</body>
+</html>
